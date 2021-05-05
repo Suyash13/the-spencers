@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spencers</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <style>
+        .navbar{
+            background-color: rgb(207, 207, 207);
+            font-size: 183%;
+            border-radius: 14px;
+            height: 120px;     
+            text-align: center;
+            font-style: italic;
+            font-family: 'Lobster', cursive;
+            }
+            .navbar ul{
+                margin: auto;
+                padding-top: 10px;
+            }
+            .navbar li{
+                list-style: none;
+                float: left; 
+                position: relative;
+                left: 600px;
+
+            }
+            .navbar li a{
+                color: rgb(0, 0, 0);
+                text-decoration: none;
+                padding: 10px 35px;
+                padding-bottom: 5px;
+            }
+            .ul3:hover{
+                background-color: rgb(240, 0, 0);
+                border-radius: 9px;
+            }
+            #logo{
+                position: relative;
+                top: -120px;
+            }
+            .search input{
+                width: 30vw;
+                height: 27px;
+                border-radius: 6px;
+                margin: 0 26px 0 56px;
+                padding: 0 12px;
+                position: relative;
+                top: -170px;
+                left: 620px;
+            }
+
+            .search{
+                display: flex;
+                align-items: center;
+            }
+
+            .search button{
+                font-family: 'Lobster', cursive;
+                font-weight: bold;
+                position: relative;
+                top: -170px;
+                left: 620px;
+                font-size: 20px;
+            }
+            .img2{
+                position: relative;
+                top: -145px;
+                margin: 5px;
+                padding-left: 25px;
+            }
+            .img3{
+                padding-left: 25px;
+                position: relative;
+                top: -100px;
+            }
+            .marquee{
+                text-align: center;
+                background-color: rgb(73, 5, 87);
+                position: relative;
+                top: -80px;
+                font-family: 'Lobster', cursive;
+                border-radius: 155px;
+                font-size: 100px;
+                color: rgb(255, 255, 255);
+            }
+            .bestselling{
+                font-family: 'Lobster', cursive;
+                text-align: center;
+                font-size: 80px;
+                position: relative;
+                top: -50px;
+            background-color: aqua;
+            border-radius: 200px;
+            }
+            .card-item{
+                display: inline-flex;
+                justify-content: center;
+                flex-direction: column;
+                width: 10vw;
+                margin: 0px 24px;
+                background-color: yellow;
+            }
+            .text-center{
+                font-family: 'Lobster', cursive;
+                font-size: 29px;
+            }
+                    .items{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-evenly;
+                align-items: center;
+                flex-wrap: wrap;
+            }
+            .item{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid #e3e3e3;
+                width: 300px;
+                padding: 5px;
+                margin: 5px;
+                position: relative;
+                top: 50px;
+            }
+            .apparels{
+                font-family: 'Lobster', cursive;
+                text-align: center;
+                font-size: 80px;
+                position: relative;
+                top: 20px;
+            background-color: aqua;
+            border-radius: 900px;
+            }
+            #img4{
+                position: relative;
+                left: 32%;
+                top: 50px;
+                border-radius: 120px;
+            }
+            .img-item{
+        width: 40%;
+      }
+      .btn-primary {
+    color: #fff;
+    background-color: #00f535;
+    border-color: #637d99;
+    font-weight: bold;
+    font-family: 'Lobster', cursive;
+    text-align: center;           
+    border-radius: 200px;
+    }
+    .btn {
+        display: inline-block;
+        font-weight: 400;
+        text-align: center;
+        white-space: nowrap;
+        vertical-align: middle;
+        border: 1px solid transparent;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        line-height: 1.5;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .table{
+    text-align: center;
+    font-size: 100px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    position: relative;
+    top: 70px;    
+    color: rgb(236, 11, 11);
+    padding-bottom: 20px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 40px;
+    }
+   
+    .form{
+    border: solid 4px black;
+    display: inline-block;
+    padding: 10px;
+    position: relative;
+    font-size: 25px; 
+    top:75px;
+    box-sizing: border-box;
+    height: 700px;
+    width: 200px;
+     }
+  
+    #img6{
+        position: relative;
+        width: fit-content;
+        height: min-content;
+        top: 100px;
+        left: 40px;
+        border-radius: 200px;
+    }
+    .form{
+        border: solid 4px black;
+        display: inline-block;
+        position: relative;
+        font-size: 25px;
+        left: 240px;
+        width: 400px;
+        height: 600px;
+        top: -30px;
+        box-sizing: border-box;
+        border-radius: 50px;
+        padding-top: 10px;
+        padding-left: 20px;
+        }
+        footer{
+                text-align: center;
+                font-size: 35px;
+                padding: 20px;
+                background-color: grey;
+                color: black;
+                font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+                border: 20px;
+                position: relative;
+                bottom: -55px;
+                border-radius: 30px;
+                margin-bottom: 5px;
+           }
+           footer a{
+               text-decoration: none;
+               color: black;
+           }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#" class="ul3">Home</a></li>
+                    <li><a href="#" class="ul3">Login</a></li>
+                    <li><a href="#" class="ul3">Sign Up</a></li>
+                    <li><a href="#" class="ul3">Cart</a></li>
+                    <li><a href="#" class="ul3">Offers</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div>
+            <img src="black-spencer-logo.png" alt="Not available" width="25%" id="logo">
+        </div>
+        <di class="search">
+            <input type="text" name="" id="" placeholder="Seach this website">
+            <button class="btn">Search</button>
+        </di>
+    </header>
+    <div class="img2">
+        <img src="phones offer.jpg" alt="NA" width="98%" >
+    </div>
+    <div class="img3">
+        <img src="shoes offer.webp" alt="NA" width="98%">
+    </div>
+    <marquee direction="up" height="400px" class="marquee">
+        <p> Let us help India breathe!</p>
+        <p>Donate to help us raise funds</p>
+        <p>to procure and deploy</p> 
+        <p>oxygen concentrators</p>
+    </marquee>
+    <div class="bestselling">
+        Up to 70% off | Bestselling accessories & office supplies
+    </div>
+    <div class="cards">
+        <div class="card-item">
+            <img src="keyboard bs.jpg" alt="NA">
+            <div class="lines">
+                <p class="text-center">Gaming Keyboard and Mouse</p>
+                <p class="text-center">Rs. 1199</p>
+                <p class="text-center">Buy now</p>
+            </div>
+        </div>
+        <div class="card-item">
+            <img src="headphones bs.jpg" alt="">
+            <div class="lines">
+                <p class="text-center">JBL Wireless Headphones</p>
+                <p class="text-center">Rs. 3199</p>
+                <p class="text-center">Buy now at 10% off!</p>
+            </div>
+        </div>
+        <div class="card-item">
+            <img src="bs.jpg" alt="">
+            <div class="lines">
+                <p class="text-center">Wireless High Speed Router</p>
+                <p class="text-center">Rs. 993</p>
+                <p class="text-center">Grab now at 25% off</p>
+            </div>
+        </div>
+        <div class="card-item">
+            <img src="ssd bs.jpg" alt="">
+            <div class="lines">
+                <p class="text-center">Crucial 1 TB SSD</p>
+                <p class="text-center">Rs. 16000</p>
+                <p class="text-center">Min 14% off</p>
+            </div>
+        </div>
+        <div class="card-item">
+            <img src="sd card bs.jpg" alt="">
+            <div class="lines">
+                <p class="text-center">Samsung 128 GB Evo Plus SD Card</p>
+                <p class="text-center">Rs. 876</p>
+            </div>
+        </div>
+        <div class="card-item">
+            <img src="desk.jpg" alt="">
+            <div class="lines">
+                <p class="text-center">Wacom One Small 6-inch x 3.5-inch Graphic Tablet</p>
+                <p class="text-center">Rs. 8543</p>
+            </div>
+        </div>
+       
+        <div class="card-item">
+            <img src="converter.jpg" alt="">
+            <div class="lines">
+                <p class="text-center">OTG Pen Drive</p>
+                <p class="text-center">Rs. 345</p>
+                <p class="text-center">Buy now at 10% off</p>
+            </div>
+        </div>
+    </div>
+    <div class="apparels">
+        Apparels at a Great Deal
+    </div>
+    <img src="sale offer.jpg" alt="NA" id="img4">
+    <div class="items">
+        <div class="item">
+          <img src="jeans.jpg" alt="" class="img-item">
+          <h2 class="name">Men's Regular Fit Jeans</h2>
+          <h3 class="price">Rs. 400</h3>
+          <button type="button" class="btn btn-primary">Buy Now</button>
+        </div>
+        <div class="item">
+          <img src="suit.jpg" alt="NA" class="img-item" height="10%">
+          <h2 class="name">Three Piece Suit</h2>
+          <h3 class="price">Rs. 9170</h3>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="tshirt.jpg" alt="" class="img-item">
+          <h2 class="name">Casual T-shirts</h2>
+          <h3 class="price">Rs. 479</h3>
+          <button type="button" class="btn btn-primary">Buy Now</button>
+        </div>
+        <div class="item">
+          <img src="formals.jpg" alt="" class="img-item">
+          <h2 class="name">Formal Shirt</h2>
+          <h3 class="price">$100</h3>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="kurta.jpg" alt="" class="img-item">
+          <h2 class="name">Women's Rayon Solid Embroidred Blue Kurta & Peach Printed Skirt Set</h2>
+          <h3 class="price">Rs. 899</h3>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="belt.jpg" alt="" class="img-item">
+          <h2 class="name">Brussel Women's PU Leather Belt</h2>
+          <h3 class="price">Rs. 199</h3>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="sunglasses.jpg" alt="" class="img-item">
+          <h2 class="name">Ray-Ban RB3025 Aviator Classic – Unisex Sunglasses</h2>
+          <h3 class="price">Rs. 400</h3>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+        <div class="item">
+          <img src="baby.jpg" alt="" class="img-item">
+          <h2 class="name">Jeans</h2>
+          <h3 class="price">Rs. 334</h3>
+          <button type="button" class="btn btn-primary">Add to Cart</button>
+        </div>
+      </div>
+      <div class="table">
+        Place your order now!
+    </div>
+    <img src="order.png" alt="NA" id="img6">
+    <div class="form">
+        <form action="backend.php">
+            <label for="name"></label>
+            <div> <strong> Name </strong> : <input type="text" name="MyName" id="name" placeholder="Enter your name"> </div>
+    
+            <br>
+            <div> <strong> Phone Number </strong> : <input type="text" name="MyPhoneNumber" placeholder="Enter the phone number"> </div>
+            
+            <br>
+            <div> <strong> Email </strong>: <input type="email" name="MyEmail" id="" placeholder="Enter your e-mail address"> </div>
+            
+            <br>
+            <div> <strong> Any Requests: </strong><br> <textarea name="myText" id="" cols="30" rows="10" placeholder="Please write here"></textarea></div>
+            
+            <br>
+            <div>
+                <label for="Day"><strong> Day: </strong></label>
+              
+                <select name="myDay" id="Day">
+                    <option value="Mon">Monday</option>
+                    <option value="Tue">Tuesday</option>
+                    <option value="Wed">Wednesday</option>
+                    <option value="Thu">Thurusday</option>
+                    <option value="Fri">Friday</option>
+                    <option value="Sat">Saturday</option>
+                    <option value="Sun">Sunday</option>
+                </select>
+            </div>
+            
+            <br>    
+            <div> <strong>Date:</strong><input type="date" name="TodayDdate" id=""></div>
+    
+             <br>
+            <div><input type="submit" value="Place your Request"></div>
+             
+        </form>
+    </div>
+    <footer>
+        <a href="#">FAQs |</a> 
+        <a href="#">Privacy Policy |</a> 
+        <a href="#">Contact us |</a>
+       Copyright &copy;-2021 All Rights Reserved to Suyash Pandey
+    </footer>
+</body>
+</html>
